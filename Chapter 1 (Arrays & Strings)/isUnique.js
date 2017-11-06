@@ -1,3 +1,15 @@
+/*
+  Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+
+  I: String
+  O: Boolean value
+  C: N/A
+  E: N/A
+
+  Space Complexity: O(n)
+  Time Complexity: O(n)
+*/
+
 var isUnique = (string) => {
   // Declare object
   var hash = {};
@@ -16,6 +28,3 @@ var isUnique = (string) => {
   // return true 
   return true;
 }
-
-console.log(isUnique('hello'));
-console.log(isUnique('hl'));
