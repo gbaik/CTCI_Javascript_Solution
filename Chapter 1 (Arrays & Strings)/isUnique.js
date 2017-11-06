@@ -14,7 +14,7 @@ var isUnique = (string) => {
   // Declare object
   var hash = {};
 
-  // Look through string
+  // Iterate through string
   for (var i = 0; i < string.length; i++) {
     // If letter exists in object
     if (hash[string[i]]) {
