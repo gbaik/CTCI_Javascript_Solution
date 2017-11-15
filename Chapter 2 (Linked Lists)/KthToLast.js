@@ -9,9 +9,8 @@
   Space Complexity: O(1)
   Time Complexity: O(n)
 */
-var linkedList = require('./basicImplementation');
 
-var KthToLast = (linkedList, k) => {
+var KthToLast0 = (linkedList, k) => {
   // Declare count variable
   var count = 0;
   // Declare length variable
@@ -35,7 +34,6 @@ var KthToLast = (linkedList, k) => {
 
   // Iterate through node
   while(node) {
-
     // If count is equal to stop
     if (count === stop) {
       // Return value of node
@@ -46,16 +44,38 @@ var KthToLast = (linkedList, k) => {
     // Set node equal to the next value
     node = node.next
   }
+
   // Return null
   return null;
 }
 
-var test = (list) => {
-  var node = list.head;
+/*
+  Space Complexity: O(1)
+  Time Complexity: O(n)
+*/
 
-  while(node) {
-    console.log(node.value);
-    node = node.next;
+var KthToLast1 = (linkedList, k) => {
+  // Set two pointers at the start
+  var pointer1 = linkedList.head;
+  var pointer2 = linkedList.head;
+  
+  // Move the first pointer k nodes into the linkedList
+  for (var i = 0; i < k; i++) {
+    // If null out of bounds
+    if (!p1) {
+      // Return null
+      return null;
+    }
+
+    p1 = p1.next;
   }
-}
 
+  // Move second pointer along with first pointer
+  while (p1) {
+    p1 = p1.next;
+    p2 = p2.next;
+  }
+
+  //Return second pointer value
+  return p2.value;
+}
