@@ -54,3 +54,7 @@ var Node = function(value) {
 
   return node;
 }
+
+var linkedList = new linkedList();
+
+module.exports = linkedList;
