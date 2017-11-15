@@ -6,8 +6,8 @@
   C: N/A
   E: N/A
 
-  Space Complexity: 
-  Time Complexity:
+  Space Complexity: O(1)
+  Time Complexity: O(n)
 */
 var linkedList = require('./basicImplementation');
 
@@ -35,29 +35,20 @@ var KthToLast = (linkedList, k) => {
 
   // Iterate through node
   while(node) {
-    // Increment count
-    count++;
+
     // If count is equal to stop
     if (count === stop) {
       // Return value of node
       return node.value;
     }
+    // Increment count
+    count++;
     // Set node equal to the next value
     node = node.next
   }
-  // Return -1
-  return -1;
+  // Return null
+  return null;
 }
-
-linkedList.addToTail(3);
-linkedList.addToTail(5);
-linkedList.addToTail(5);
-linkedList.addToTail(10);
-linkedList.addToTail(5);
-linkedList.addToTail(3);
-
-
-console.log(KthToLast(linkedList,2));
 
 var test = (list) => {
   var node = list.head;
@@ -68,4 +59,3 @@ var test = (list) => {
   }
 }
 
-// console.log(test(linkedList));
