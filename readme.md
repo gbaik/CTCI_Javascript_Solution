@@ -23,7 +23,7 @@ Javascript solution to Cracking the Coding Interview 6th Edition Questions
 - [ ] 2.4 - Partition
 - [ ] 2.5 - Sum Lists
 - [ ] 2.6 - Palindrome
-- [ ] 2.7 - Intersection
+- [ ] 2.7 - cIntersection
 - [ ] 2.8 - Loop Detection
 
 ## Author
