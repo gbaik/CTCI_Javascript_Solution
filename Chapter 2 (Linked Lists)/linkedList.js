@@ -1,5 +1,5 @@
 var linkedList = function() {
-  var list = {}
+  var list = {};
 
   list.head = null;
   list.tail = null;  
@@ -54,7 +54,5 @@ var Node = function(value) {
 
   return node;
 }
-
-var linkedList = new linkedList();
 
 module.exports = linkedList;
