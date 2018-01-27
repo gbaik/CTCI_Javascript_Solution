@@ -1,6 +1,4 @@
 /*
-  Write code to remove duplicates from an unsorted li nked list.
-
   I: Linked List (unsorted)
   O: Linked List (w/o duplicates)
   C: N/A

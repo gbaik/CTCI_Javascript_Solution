@@ -48,7 +48,7 @@ Javascript solution to Cracking the Coding Interview 6th Edition Questions
 - [ ] 4.11 - Random Node
 - [ ] 4.12 - Paths with Sum
 
-#### Lead Developer
+#### Support
 
-- [Gideon Baik](https://github.com/gbaik) (gideonbaik@gmail.com)
+If you would like the questions, please support, Gayle Laakmann McDowell, by purchasing the [book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 

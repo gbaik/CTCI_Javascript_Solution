@@ -1,6 +1,4 @@
 /*
-  Implement an algorithm to find the kth to last element of a singly linked list.
-
   I: Linked List, K (Integer)
   O: Linked List Value (unspecified)
   C: N/A
