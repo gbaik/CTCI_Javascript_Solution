@@ -39,7 +39,7 @@ Javascript solution to Cracking the Coding Interview 6th Edition Questions
 - [ ] 4.2 - Minimal Tree
 - [ ] 4.3 - List of Depths
 - [ ] 4.4 - Check Balanced
-- [ ] 4.5 - Validate BST
+- [X] 4.5 - Validate BST
 - [ ] 4.6 - Successor
 - [ ] 4.7 - Build Order
 - [ ] 4.8 - First Common Ancestor
